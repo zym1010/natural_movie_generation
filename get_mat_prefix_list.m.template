@@ -1,0 +1,12 @@
+function [ prefix_list, prefix_list_num ] = get_mat_prefix_list(  )
+%GET_MAT_PREFIX_LIST Summary of this function goes here
+%   Detailed explanation goes here
+
+prefix_list = {'BBC_FE'; 
+    'BBC_NW_ADM';
+    };
+
+prefix_list_num = 1000 + (1:length(prefix_list));
+
+end
+

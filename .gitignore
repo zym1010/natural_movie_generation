@@ -1,3 +1,8 @@
+image/*.png
+mat/*.mat
+get_mat_movie_script.m
+get_mat_prefix_list.m
+
 *.py[cod]
 
 # C extensions
