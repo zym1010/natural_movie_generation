@@ -1,4 +1,4 @@
 natural_movie_generation
 ========================
 
-Something to do: since the log file sometimes contain erroneous lines (and I wrongly deleted the first log file), it might be better to be able to generate movies by specifying frame numbers, so that I can use the MATLAB script to restore movies quickly.
+retrieve a set of frames from a movie file, and produce a mat file with cell array `frames` saving all the frames, and a txt file saving meta info about this movie file and retrieval.

@@ -1,7 +1,5 @@
-image/*.png
-mat/*.mat
-get_mat_movie_script.m
-get_mat_prefix_list.m
+/demo/demo.mat
+/demo/demo.txt
 
 *.py[cod]
 
