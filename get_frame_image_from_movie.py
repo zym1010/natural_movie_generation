@@ -38,7 +38,7 @@ def get_frame_image_from_movie(input_file, time_start, filename_base, save_dir='
         ret, frame = cap.read()
         assert ret
         print('writing frame {:d}...'.format(i))
-        numpy_mat = np.asarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+        numpy_mat = np.asarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))  # since OpenCV's color scheme is BGR.
         assert numpy_mat.dtype.type is np.uint8  # must be uint8 type.
         assert len(numpy_mat.shape) == 3 and numpy_mat.shape[2] == 3  # must be three channel thing
         mat_list[i] = numpy_mat
